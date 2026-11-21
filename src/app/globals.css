@@ -2,30 +2,30 @@
 
 /* MedMate brand tokens (same as the customer app; see brand/MedMate_Logo_Brand_Sheet.pdf) */
 @theme {
-  /* Bold emerald palette (Nov 2026): deep emerald, vivid emerald, one bright jade highlight, crisp white and near-black.
-     "gold" keeps its token name but is now the jade highlight, so every component picks it up unchanged. */
-  --color-forest: #01291c;
-  --color-green: #00875a;
-  --color-gold: #5ef2b0;
-  --color-mint: #5ef2b0;
-  --color-green-700: #006a46;
-  --color-mint-300: #a6f2cf;
-  --color-mint-200: #cdf5e3;
-  --color-mint-100: #e6f8f0;
-  --color-mint-50: #f3fbf7;
+  /* Forest green + warm gold palette (restored Nov 2026 from the earlier site): gold-50/100/200 give the
+     soft yellow card backgrounds. The Nov 2026 "bold emerald" palette was reverted. */
+  --color-forest: #1b3d29;
+  --color-green: #2f7d52;
+  --color-gold: #d9a648;
+  --color-mint: #8fd4a8;
+  --color-green-700: #256b46;
+  --color-mint-300: #bde5cb;
+  --color-mint-200: #d9f0e1;
+  --color-mint-100: #e9f6ee;
+  --color-mint-50: #f4fbf6;
   --color-surface: #ffffff;
-  --color-gold-ink: #006a46;
-  --color-gold-200: #9ef7cf;
-  --color-gold-100: #c9eedd;
-  --color-gold-50: #eefaf4;
-  --color-ink: #0b1511;
-  --color-ink-2: #34403b;
-  --color-muted: #5f6b66;
-  --color-faint: #98a29e;
-  --color-line-2: #d6ddda;
-  --color-line: #e8ecea;
-  --color-surface-3: #eef1f0;
-  --color-surface-2: #f6f8f7;
+  --color-gold-ink: #855b0c;
+  --color-gold-200: #f2d996;
+  --color-gold-100: #faedc9;
+  --color-gold-50: #fdf8ea;
+  --color-ink: #14201a;
+  --color-ink-2: #3b4842;
+  --color-muted: #65726b;
+  --color-faint: #9aa59f;
+  --color-line-2: #d5ddd8;
+  --color-line: #e7ece9;
+  --color-surface-3: #edf2ef;
+  --color-surface-2: #f5f8f6;
   --color-red: #c2392d;
   --color-red-bg: #fcece9;
 
@@ -63,11 +63,11 @@ button { cursor: pointer; }
 .d-btn { font-weight: 700; font-size: 16px; line-height: 20px; }
 .d-caption { font-weight: 500; font-size: 13px; line-height: 18px; }
 
-.brand-zone { background: linear-gradient(160deg, #004a31 0%, #006a46 50%, #00865a 100%); }
+.brand-zone { background: linear-gradient(180deg, var(--color-forest) 0%, var(--color-green-700) 100%); }
 .tint-zone { background: linear-gradient(180deg, #fff 0%, var(--color-mint-200) 100%); }
 /* Brand tint behind every product image (founder rule: never plain white). Photos multiply onto it. */
 .art-bg { background: linear-gradient(180deg, var(--color-mint-50) 0%, var(--color-mint-200) 100%); }
-.hero-glow { background: radial-gradient(60% 60% at 70% 40%, rgb(94 242 176 / 0.16) 0%, transparent 70%); }
+.hero-glow { background: radial-gradient(60% 60% at 70% 40%, rgb(217 166 72 / 0.18) 0%, transparent 70%); }
 
 .press { transition: transform 120ms var(--ease-settle), background-color 200ms var(--ease-settle), color 200ms var(--ease-settle), border-color 200ms var(--ease-settle), box-shadow 200ms var(--ease-settle); }
 .press:active { transform: scale(0.98); }
