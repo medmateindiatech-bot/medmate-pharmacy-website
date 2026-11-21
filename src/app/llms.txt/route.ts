@@ -17,6 +17,7 @@ Key facts:
 - Prescription medicines are dispensed only by a licensed pharmacy against a valid prescription, checked by a registered pharmacist. Customers can upload a prescription or book a consultation with a registered doctor, who decides independently.
 - Payments (at launch): UPI, card or cash on delivery.
 - For pharmacies: the MedMate Partner console (Namma MedMate) is one ERP and POS for GST billing, batch-wise inventory with expiry alerts, purchases, prescriptions, CRM and credit khata. Pharmacies set their own prices and keep their customers; each shop's online store and delivery are launching soon in Bengaluru. Plans: Essential ₹299, Care ₹499, Growth ₹999, Flagship ₹1,499 a month, first 3 months free, no setup fee, no lock-in.
+- For clinics (coming soon): MedMate Doctor is clinic software for India: check-in and queue, vitals, a Doctor Console with prescription safety checks, signed FHIR e-prescriptions, GST billing, appointments and teleconsultation, ready for ABDM. Planned launch prices: Solo ₹999, Clinic ₹2,499 a month, Enterprise custom, plus GST. Not yet open to clinics; early access at /clinic-software.
 
 Full text of every article and FAQ: ${SITE_URL}/llms-full.txt
 
@@ -27,6 +28,7 @@ Full text of every article and FAQ: ${SITE_URL}/llms-full.txt
 - [Doctor consultation (coming soon)](${SITE_URL}/doctor-consultation)
 - [Upload a prescription (coming soon)](${SITE_URL}/upload-prescription)
 - [For pharmacies: Partner console, pricing and free demo](${SITE_URL}/pharmacy-partner)
+- [For clinics: MedMate Doctor clinic software (coming soon), early access](${SITE_URL}/clinic-software)
 - [About MedMate: founder Roni Paul's story and the team](${SITE_URL}/about)
 - [Medicine delivery in Bengaluru, launching soon: areas and pincodes](${SITE_URL}/bengaluru)
 - [All medicines](${SITE_URL}/medicines): ${PRODUCTS.length} products in ${CATEGORIES.length} categories

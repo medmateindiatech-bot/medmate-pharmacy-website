@@ -24,7 +24,7 @@ export function Wordmark({ size = 26, dark = false, tagline = false }: { size?: 
   const mark = (
     <span className="font-bold leading-none tracking-[-0.035em]" style={{ fontSize: size }}>
       <span className={dark ? "text-white" : "text-forest"}>Med</span>
-      <span className={dark ? "text-gold" : "text-green"}>Mate</span>
+      <span className="text-gold">Mate</span>
     </span>
   );
   if (!tagline || size < 20) return mark;

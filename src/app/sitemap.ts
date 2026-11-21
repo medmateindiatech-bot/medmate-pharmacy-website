@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     page("/doctor-consultation", 0.8, "monthly"),
     page("/upload-prescription", 0.8, "monthly"),
     page("/pharmacy-partner", 0.9),
+    page("/clinic-software", 0.8, "monthly"),
     page("/blog", 0.8, "weekly"),
     page("/bengaluru", 0.9, "weekly"),
     ...AREAS.map((a) => page(`/bengaluru/${a.slug}`, 0.7, "monthly")),

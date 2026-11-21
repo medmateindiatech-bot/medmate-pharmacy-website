@@ -7,8 +7,8 @@ import sys
 from PIL import Image, ImageDraw, ImageFont
 
 FONT = sys.argv[1] if len(sys.argv) > 1 else "brand/fonts/Outfit[wght].ttf"
-LIGHT, DARK = (0, 134, 90), (0, 58, 38)  # top-left glow to bottom-right
-GOLD, WHITE = (94, 242, 176), (255, 255, 255)  # "GOLD" is the jade highlight since Nov 2026
+LIGHT, DARK = (47, 125, 82), (27, 61, 41)  # forest green: top-left glow to bottom-right
+GOLD, WHITE = (217, 166, 72), (255, 255, 255)  # warm gold, restored 21 Nov 2026 with the forest-and-gold palette
 
 
 def artwork(size):

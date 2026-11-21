@@ -10,6 +10,7 @@ const NAV: [string, string][] = [
   ["Medicines", "/medicines"],
   ["Doctor consult", "/doctor-consultation"],
   ["For pharmacies", "/pharmacy-partner"],
+  ["For clinics", "/clinic-software"],
   ["Blog", "/blog"],
   ["About", "/about"],
 ];
@@ -53,7 +54,7 @@ export function Footer({ qr }: { qr: string }) {
           <StoreLine dark />
         </div>
         <FooterCol title="Medicines" links={[...cats.map((c) => [c.name, `/medicines/${c.slug}`] as [string, string]), ["All categories", "/medicines"]]} />
-        <FooterCol title="MedMate" links={[["How it works", "/#how-it-works"], ["Talk to a doctor", "/doctor-consultation"], ["Upload a prescription", "/upload-prescription"], ["Blog", "/blog"], ["Search medicines", "/search"], ["Premium for waitlist members", "/premium"], ["Download the app", "/download"], ["About us", "/about"], ["Our team", "/about#team"]]} />
+        <FooterCol title="MedMate" links={[["How it works", "/#how-it-works"], ["Talk to a doctor", "/doctor-consultation"], ["Clinic software (coming soon)", "/clinic-software"], ["Upload a prescription", "/upload-prescription"], ["Blog", "/blog"], ["Search medicines", "/search"], ["Premium for waitlist members", "/premium"], ["Download the app", "/download"], ["About us", "/about"], ["Our team", "/about#team"]]} />
         <FooterCol title="For pharmacies" links={[["Partner console", "/pharmacy-partner"], ["Features", "/pharmacy-partner#features"], ["Pricing", "/pharmacy-partner#pricing"], ["Book a free demo", "/pharmacy-partner#register"], ["Sell medicines online", "/blog/sell-medicines-online-pharmacy-india"], ["Documents checklist", "/blog/documents-to-list-pharmacy-online"]]} />
         <FooterCol title="Legal" links={[...LEGAL_LINKS] as [string, string][]} />
       </Container>
